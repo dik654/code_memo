@@ -5,7 +5,7 @@ import { readFileSync } from 'fs'
 
 async function main() {
     const [owner] = await ethers.getSigners()
-    const name = "YOURWORLD"
+    const name = "TESTCONTRACT"
     const signatureVersion = "1.0.0" 
     const chainId: number = Number(network.config.chainId)
     // typeHash struct는 알파벳 순서
